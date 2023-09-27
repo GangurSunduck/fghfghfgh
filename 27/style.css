@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.texttable .text-info,
+.texttable .table-info {
+  display: none;
+}
+
+.texttable.text .text-info,
+.texttable.table .table-info {
+  display: block;
+}
+
+.texttable img {
+  position: fixed;
+  right:0;
+  top:0;
+  max-width: 80vw;
+  max-height: 100vh;
+}
+.choo{
+    display: flex;
+}
+
+.obsh{
+    display: flex;
+    gap: 200px;
+}
+
+.obshtable{
+    display: flex;
+}
